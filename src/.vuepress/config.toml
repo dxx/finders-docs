@@ -1,5 +1,6 @@
-[themeConfig]
 base = "/finders-docs/"
+
+[themeConfig]
 repo = "dxx/finders"
 docsRepo = "dxx/finders-docs"
 docsDir = "src"
