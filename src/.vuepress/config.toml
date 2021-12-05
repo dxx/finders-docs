@@ -1,3 +1,4 @@
+dest = "dist"
 base = "/finders-docs/"
 
 [themeConfig]
