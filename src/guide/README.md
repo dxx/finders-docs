@@ -1,6 +1,6 @@
 # Introduction
 
-Finders is a distributed service management platform that helps you achieve the governance of microservices, such as service discovery, service registration, service healthy check. Finders provides a console UI to visualize viewing of service instances, instance status, and cluster node status.
+Finders is a distributed service management platform that help you achieve the governance of microservices, such as service discovery, service registration, service healthy check. Finders provides a console UI to visualize viewing of service instances, instance status, and cluster node status.
 
 ## Features
 
@@ -20,7 +20,7 @@ Services providing a collection of software functions with a unique identificati
 
 ### Cluster
 
-All instances of a service can make up of one or more clusters.In addition to the namespace, the clusters can be further divided. 
+All instances of a service can make up of one or more clusters. In addition to the namespace, the clusters can be further divided. 
 
 ### Instance
 
