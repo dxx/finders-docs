@@ -1,6 +1,10 @@
 dest = "dist"
 base = "/finders-docs/"
 
+plugins = [
+  ["@vuepress/back-to-top"]
+]
+
 [themeConfig]
 repo = "dxx/finders"
 docsRepo = "dxx/finders-docs"
