@@ -2,7 +2,7 @@ dest = "dist"
 base = "/finders/"
 
 plugins = [
-  ["@vuepress/back-to-top"]
+  [ "@vuepress/back-to-top" ]
 ]
 
 [themeConfig]
@@ -30,7 +30,7 @@ nav = [
 
 [themeConfig.locales."/".sidebar]
 "/guide/" = [
-  { title = "指南", collapsable = false, sidebarDepth = 1, children = [
+  { title = "Guide", collapsable = false, sidebarDepth = 1, children = [
     "",
     "getting-started",
   ] },
