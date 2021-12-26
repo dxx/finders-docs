@@ -24,7 +24,7 @@ Parameter List:
 
 | Name        | Type   | Required | Description                                                  |
 | ----------- | ------ | -------- | ------------------------------------------------------------ |
-| namespace   | string | no       | Namespace. Default is the `default`                          |
+| namespace   | string | no       | Namespace. Default is `default`                              |
 | clusters    | string | no       | Cluster name. Multiple clusters were segmented using `, `. Default is empty |
 | serviceName | string | yes      | Service name                                                 |
 
