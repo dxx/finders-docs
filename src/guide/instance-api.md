@@ -185,8 +185,8 @@ Parameter List:
 
 | Name        | Type   | Required  | Description                                    |
 | ----------- | ------ | --------- | ---------------------------------------------- |
-| namespace   | string | no        | Namespace. Default is the `default`            |
-| cluster     | string | no        | Cluster name. Default is the `DEFAULT_CLUSTER` |
+| namespace   | string | no        | Namespace. Default is `default`                |
+| cluster     | string | no        | Cluster name. Default is `DEFAULT_CLUSTER`     |
 | serviceName | string | yes       | Service name                                   |
 | ip          | string | yes       | IP of Instance                                 |
 | port        | int    | yes       | Port of Instance                               |
@@ -240,8 +240,8 @@ Parameter List:
 
 | Name        | Type   | Required  | Description                                    |
 | ----------- | ------ | --------- | ---------------------------------------------- |
-| namespace   | string | no        | Namespace. Default is the `default`            |
-| cluster     | string | no        | Cluster name. Default is the `DEFAULT_CLUSTER` |
+| namespace   | string | no        | Namespace. Default is `default`                |
+| cluster     | string | no        | Cluster name. Default is `DEFAULT_CLUSTER`     |
 | serviceName | string | yes       | Service name                                   |
 | ip          | string | yes       | IP of Instance                                 |
 | port        | int    | yes       | Port of Instance                               |
@@ -293,8 +293,8 @@ Parameter List:
 
 | Name        | Type   | Required  | Description                                      |
 | ----------- | ------ | --------- | ------------------------------------------------ |
-| namespace   | string | no        | Namespace. Default is the `default`              |
-| cluster     | string | no        | Cluster name. Default is the `DEFAULT_CLUSTER`   |
+| namespace   | string | no        | Namespace. Default is `default`                  |
+| cluster     | string | no        | Cluster name. Default is `DEFAULT_CLUSTER`       |
 | serviceName | string | yes       | Service name                                     |
 | ip          | string | yes       | IP of Instance                                   |
 | port        | int    | yes       | Port of Instance                                 |
