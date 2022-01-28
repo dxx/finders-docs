@@ -4,7 +4,7 @@ The installation package can be downloaded directly or built using the source co
 
 ## Prerequisites
 
-* JDK 8+ installed
+* JDK8+ installed
 * `JAVA_HOME` environment variable configured
 
 ## Download Installation Package
@@ -62,7 +62,7 @@ Run the following command to start:
 startup.bat
 ```
 
-Or double click the `startup.bat` file.
+Or double-click the `startup.bat` file.
 
 ## Shutdown Server
 
@@ -78,7 +78,7 @@ Or double click the `startup.bat` file.
 shutdown.bat
 ```
 
-Or double click the `shutdown.bat` file.
+Or double-click the `shutdown.bat` file.
 
 > Note: if the `shutdown.bat` file is not found, please build again.
 
