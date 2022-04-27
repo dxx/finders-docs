@@ -27,11 +27,12 @@ GET
 | namespace   | string | 否       | 命名空间。默认为 `default`              |
 | clusters    | string | 否       | 集群名称。多个集群使用`,`分割。默认为空 |
 | serviceName | string | 是       | 服务名称                                |
+| healthy     | boolean | 否      | 是否健康状态                             |
 
 ### 请求示例
 
 ```shell
-GET http://localhost:9080/api/instance/list?namespace=&clusters=&serviceName=testService
+GET http://localhost:9080/api/instance/list?namespace=&clusters=&serviceName=testService&healthy=
 ```
 
 返回：

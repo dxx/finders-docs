@@ -27,11 +27,12 @@ Parameter List:
 | namespace   | string | no       | Namespace. Default is `default`                              |
 | clusters    | string | no       | Cluster name. Multiple clusters were segmented using `, `. Default is empty |
 | serviceName | string | yes      | Service name                                                 |
+| healthy     | boolean | no      | Health status                                                |
 
 ### Request Example
 
 ```shell
-GET http://localhost:9080/api/instance/list?namespace=&clusters=&serviceName=testService
+GET http://localhost:9080/api/instance/list?namespace=&clusters=&serviceName=testService&healthy=
 ```
 
 Response:
