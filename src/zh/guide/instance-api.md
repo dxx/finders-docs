@@ -27,7 +27,7 @@ GET
 | namespace   | string | 否       | 命名空间。默认为 `default`              |
 | clusters    | string | 否       | 集群名称。多个集群使用`,`分割。默认为空 |
 | serviceName | string | 是       | 服务名称                                |
-| healthy     | boolean | 否      | 是否健康状态                             |
+| healthy     | boolean | 否      | 是否健康状态。默认为所有状态                |
 
 ### 请求示例
 

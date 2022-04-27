@@ -27,7 +27,7 @@ Parameter List:
 | namespace   | string | no       | Namespace. Default is `default`                              |
 | clusters    | string | no       | Cluster name. Multiple clusters were segmented using `, `. Default is empty |
 | serviceName | string | yes      | Service name                                                 |
-| healthy     | boolean | no      | Health status                                                |
+| healthy     | boolean | no      | Health status. Default is all status                         |
 
 ### Request Example
 
