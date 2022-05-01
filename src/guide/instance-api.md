@@ -32,22 +32,22 @@ Parameter List:
 ### Request Example
 
 ```shell
-GET http://localhost:9080/api/instance/list?namespace=&clusters=&serviceName=testService&healthy=
+GET http://localhost:9080/api/instance/list?namespace=&clusters=&serviceName=serviceTest&healthy=
 ```
 
 Response:
 
 ```json
 {
-  "serviceName": "testService",
+  "serviceName": "serviceTest",
   "clusters": [
     "DEFAULT_CLUSTER"
   ],
   "instances": [
     {
-      "instanceId": "DEFAULT_CLUSTER#testService@127.0.0.1:8080",
+      "instanceId": "DEFAULT_CLUSTER#serviceTest@127.0.0.1:8080",
       "cluster": "DEFAULT_CLUSTER",
-      "serviceName": "testService",
+      "serviceName": "serviceTest",
       "ip": "127.0.0.1",
       "port": 8080,
       "status": "HEALTHY"
@@ -91,16 +91,16 @@ Parameter List:
 ### Request Example
 
 ```shell
-GET http://localhost:9080/api/instance?namespace=&cluster=&serviceName=testService&ip=127.0.0.1&port=8080
+GET http://localhost:9080/api/instance?namespace=&cluster=&serviceName=serviceTest&ip=127.0.0.1&port=8080
 ```
 
 Response: 
 
 ```json
 {
-  "instanceId": "DEFAULT_CLUSTER#testService@127.0.0.1:8080",
+  "instanceId": "DEFAULT_CLUSTER#serviceTest@127.0.0.1:8080",
   "cluster": "DEFAULT_CLUSTER",
-  "serviceName": "testService",
+  "serviceName": "serviceTest",
   "ip": "127.0.0.1",
   "port": 8080,
   "status": "HEALTHY"
@@ -148,7 +148,7 @@ Content-Type: application/json
 {
   "namespace": "default",
   "cluster": "DEFAULT_CLUSTER",
-  "serviceName": "testService",
+  "serviceName": "serviceTest",
   "ip": "127.0.0.1",
   "port": 8080
 }
@@ -201,7 +201,7 @@ Content-Type: application/json
 {
   "namespace": "default",
   "cluster": "DEFAULT_CLUSTER",
-  "serviceName": "testService",
+  "serviceName": "serviceTest",
   "ip": "127.0.0.1",
   "port": 8080
 }
@@ -256,7 +256,7 @@ Content-Type: application/json
 {
   "namespace": "default",
   "cluster": "DEFAULT_CLUSTER",
-  "serviceName": "testService",
+  "serviceName": "serviceTest",
   "ip": "127.0.0.1",
   "port": 8080
 }
@@ -310,7 +310,7 @@ Content-Type: application/json
 {
   "namespace": "default",
   "cluster": "DEFAULT_CLUSTER",
-  "serviceName": "testService",
+  "serviceName": "serviceTest",
   "ip": "127.0.0.1",
   "port": 8080,
   "status": "DISABLE"
