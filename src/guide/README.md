@@ -4,7 +4,7 @@ Finders is a distributed service management platform that help you achieve the g
 
 ## Features
 
-* Easy to install, fast
+* Easy and fast to install
 * Cluster deployment to ensure high availability
 * Support for multiple-language client access
 
