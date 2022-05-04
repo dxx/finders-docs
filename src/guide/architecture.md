@@ -29,7 +29,7 @@ Components:
 <img src="../images/architecture_en_2.png" alt="architecture_en_2" style="zoom:50%;" />
 </p>
 
-The console is a visual console for viewing service information and cluster information, it gets information through ConsoleAPI.
+The console is a visual console for viewing service information and cluster information, it interacts with the server through the ConsoleAPI.
 
 After clients integrates with the SDK，clients and registry server interact through OpenAPI, and client send request with service instance information to server. Those clients usually are microservice providers or consumers.
 

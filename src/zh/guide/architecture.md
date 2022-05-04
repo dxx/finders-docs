@@ -29,7 +29,7 @@
 <img src="../../images/architecture_zh_2.png" alt="architecture_zh_2" style="zoom:50%;" />
 </p>
 
-可视化的控制台，用于查看服务信息和集群信息，它通过 ConsoleAPI 获取信息。
+可视化的控制台，用于查看服务信息和集群信息，它通过 ConsoleAPI 和服务端交互。
 
 客户端集成 SDK 后，客户端和注册中心服务端通过 OpenAPI 交互，客户端携带服务实例信息向服务端发送请求。通常这些客户端是微服务提供者或者消费者。
 
