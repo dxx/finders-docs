@@ -37,4 +37,4 @@ The route handler of the registry server is responsible for processing HTTP rout
 
 After the server receives the query instance request, the routing handler receives and processes it and invokes the service management, which reads the service instance information from the memory and returns it to the client.
 
-To ensure the normal running of all nodes in the cluster, a node health status check task is provided on the server. The task periodically checks whether other nodes in the cluster are running properly and then updates the node information.
+To ensure that the registry cluster can normally provide external services, a node health status check task is provided on the server. The task periodically checks whether other nodes in the cluster are running properly and then updates the node information.
